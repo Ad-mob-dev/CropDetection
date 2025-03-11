@@ -1,0 +1,20 @@
+# Ignore model files
+*.h5
+
+# Ignore checkpoints and TensorFlow logs
+checkpoint/
+saved_model/
+logs/
+*.ckpt
+*.pb
+
+# Ignore dataset cache and temporary files
+__pycache__/
+*.npz
+*.npy
+*.csv
+*.json
+
+# Ignore virtual environments
+venv/
+.env/
